@@ -1,5 +1,5 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
-import {Book, books} from "../mock-data";
+import {Book, books} from "../../mock-data";
 export const handler = async ({
     pathParameters,
 }: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {

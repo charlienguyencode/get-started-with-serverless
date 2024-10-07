@@ -1,4 +1,4 @@
-import { handler } from "../get-book.handler";
+import { handler } from "../get-book/get-book.handler";
 import { APIGatewayProxyEvent } from "aws-lambda";
 
 jest.mock('../../mock-data', () => ({
@@ -16,8 +16,7 @@ jest.mock('../../mock-data', () => ({
         },
     ],
 }));
-describe('Lambda Handler Tests', () => {
-
+describe('Get books Handler Tests', () => {
     it('should handle null pathParameter', async () => {
         const event: APIGatewayProxyEvent = {
             pathParameters: null,
