@@ -1,0 +1,20 @@
+{
+  "name": "get-started-with-serverless",
+  "version": "1.0.0",
+  "description": "An example of simple CRUD serverless using Typescript and AWS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charlie Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
